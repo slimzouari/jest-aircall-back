@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contacts_Search List_All : check_pagination_default_behavior 1`] = `
+Object {
+  "count": 20,
+  "current_page": 1,
+  "next_page_link": "https://api.aircall.io/v1/contacts?order=asc&page=2&per_page=20",
+  "per_page": 20,
+  "previous_page_link": null,
+  "total": 53,
+}
+`;
+
+exports[`Contacts_Search Search_By_Number : Exact_Number_No_Prefix  : check_only_one_contact_is_returned_and_validate_snapshot 1`] = `
+Object {
+  "contacts": Array [
+    Object {
+      "company_name": "Test Company1",
+      "created_at": 1583745888,
+      "direct_link": "https://api.aircall.io/v1/contacts/34069295",
+      "emails": Array [],
+      "first_name": "Jacky",
+      "id": 34069295,
+      "information": "",
+      "is_shared": true,
+      "last_name": "Rowland",
+      "phone_numbers": Array [
+        Object {
+          "id": 60650277,
+          "label": "Mobile",
+          "value": "+33652556756",
+        },
+      ],
+      "updated_at": 1583814712,
+    },
+  ],
+  "meta": Object {
+    "count": 1,
+    "current_page": 1,
+    "next_page_link": null,
+    "per_page": 20,
+    "previous_page_link": null,
+    "total": 1,
+  },
+}
+`;
+
+exports[`Contacts_Search Search_By_Number : Exact_Number_Prefix_Plus  : check_only_one_contact_is_returned_and_validate_snapshot 1`] = `
+Object {
+  "contacts": Array [
+    Object {
+      "company_name": "Test Company1",
+      "created_at": 1583745888,
+      "direct_link": "https://api.aircall.io/v1/contacts/34069295",
+      "emails": Array [],
+      "first_name": "Jacky",
+      "id": 34069295,
+      "information": "",
+      "is_shared": true,
+      "last_name": "Rowland",
+      "phone_numbers": Array [
+        Object {
+          "id": 60650277,
+          "label": "Mobile",
+          "value": "+33652556756",
+        },
+      ],
+      "updated_at": 1583814712,
+    },
+  ],
+  "meta": Object {
+    "count": 1,
+    "current_page": 1,
+    "next_page_link": null,
+    "per_page": 20,
+    "previous_page_link": null,
+    "total": 1,
+  },
+}
+`;
+
+exports[`Contacts_Search Search_By_Number : Exact_Number_Prefix_ZERO  : check_only_one_contact_is_returned_and_validate_snapshot 1`] = `
+Object {
+  "contacts": Array [
+    Object {
+      "company_name": "Test Company1",
+      "created_at": 1583745888,
+      "direct_link": "https://api.aircall.io/v1/contacts/34069295",
+      "emails": Array [],
+      "first_name": "Jacky",
+      "id": 34069295,
+      "information": "",
+      "is_shared": true,
+      "last_name": "Rowland",
+      "phone_numbers": Array [
+        Object {
+          "id": 60650277,
+          "label": "Mobile",
+          "value": "+33652556756",
+        },
+      ],
+      "updated_at": 1583814712,
+    },
+  ],
+  "meta": Object {
+    "count": 1,
+    "current_page": 1,
+    "next_page_link": null,
+    "per_page": 20,
+    "previous_page_link": null,
+    "total": 1,
+  },
+}
+`;
+
+exports[`Contacts_Search Search_By_Number : Left_Substring_Number  : check_only_one_contact_is_returned_and_validate_snapshot 1`] = `
+Object {
+  "contacts": Array [
+    Object {
+      "company_name": "Test Company1",
+      "created_at": 1583745888,
+      "direct_link": "https://api.aircall.io/v1/contacts/34069295",
+      "emails": Array [],
+      "first_name": "Jacky",
+      "id": 34069295,
+      "information": "",
+      "is_shared": true,
+      "last_name": "Rowland",
+      "phone_numbers": Array [
+        Object {
+          "id": 60650277,
+          "label": "Mobile",
+          "value": "+33652556756",
+        },
+      ],
+      "updated_at": 1583814712,
+    },
+  ],
+  "meta": Object {
+    "count": 1,
+    "current_page": 1,
+    "next_page_link": null,
+    "per_page": 20,
+    "previous_page_link": null,
+    "total": 1,
+  },
+}
+`;
+
+exports[`Contacts_Search Search_By_Number : Non_Existing_Number : check_empty_response 1`] = `
+Object {
+  "contacts": Array [],
+  "meta": Object {
+    "count": 0,
+    "current_page": 1,
+    "next_page_link": null,
+    "per_page": 20,
+    "previous_page_link": null,
+    "total": 0,
+  },
+}
+`;
+
+exports[`Contacts_Search Search_By_Number : Right_Substring_Number  : check_no_contact_is_returned_and_validate_snapshot 1`] = `
+Object {
+  "contacts": Array [],
+  "meta": Object {
+    "count": 0,
+    "current_page": 1,
+    "next_page_link": null,
+    "per_page": 20,
+    "previous_page_link": null,
+    "total": 0,
+  },
+}
+`;

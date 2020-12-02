@@ -1,0 +1,65 @@
+   {
+       "Contacts_Search": {
+           "Search_By_Number": {
+               "data_provider": {
+                   "exact_number_prefix_plus": {
+                       "params": {
+                           "phone_number": "+33652556756"
+                       }
+                   },
+                   "exact_number_prefix_00": {
+                       "params": {
+                           "phone_number": "0033652556756"
+                       }
+                   },
+                   "exact_number_no_prefix": {
+                       "params": {
+                           "phone_number": "33652556756"
+                       }
+                   },
+                   "left_number_substring": {
+                       "params": {
+                           "phone_number": "+3365255"
+                       }
+                   },
+                   "right_number_substring": {
+                       "params": {
+                           "phone_number": "2556756"
+                       }
+                   },
+                   "non_existing_number": {
+                       "params": {
+                           "phone_number": "+01234567890"
+                       }
+
+                   }
+               }
+           },
+
+           "List_All": {
+               "data_provider": {
+                   "query_page_1": {
+                       "params": {
+                           "order": "asc",
+                           "order_by": "created_at",
+                           "per_page": 5,
+                           "page": 1
+                       }
+                   },
+                   "query_page_2": {
+                       "params": {
+                           "order": "asc",
+                           "order_by": "created_at",
+                           "per_page": 5,
+                           "page": 2
+                       }
+                   },
+                   "default_query": {
+                       "params": {
+
+                       }
+                   }
+               }
+           }
+       }
+   }
