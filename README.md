@@ -1,5 +1,5 @@
 //////////////////////////////Assignment\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-Link to Test Plan
+https://docs.google.com/document/d/1yJzgOadxKEzbFuMGPi80lF_udf_jk76Yu9qdG63_5Qw/edit?usp=sharing
 
 /////////////////////////////Test Framework Setup Readme \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 # Pre-requistes:
