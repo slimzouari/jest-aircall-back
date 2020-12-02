@@ -1,10 +1,8 @@
-//////////////////////////////Assignment\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+# Assignment : 
 https://docs.google.com/document/d/1yJzgOadxKEzbFuMGPi80lF_udf_jk76Yu9qdG63_5Qw/edit?usp=sharing
 
-/////////////////////////////Test Framework Setup Readme \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 # Pre-requistes:
 install node version 12.xx (recommended) or higher
-
 
 # clone projects :
 git clone https://github.com/edcast/leapest-integration-framework.git
