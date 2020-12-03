@@ -5,7 +5,7 @@ https://docs.google.com/document/d/1yJzgOadxKEzbFuMGPi80lF_udf_jk76Yu9qdG63_5Qw/
 install node version 12.xx (recommended) or higher
 
 # clone projects :
-git clone https://github.com/edcast/leapest-integration-framework.git
+git clone https://github.com/slimzouari/jest-aircall-back.git
 
 # Steps to Setup the project:
 - from the root folder of the project 
